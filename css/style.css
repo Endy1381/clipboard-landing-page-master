@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 9vb;
+}
+
+
+body {
+    color: rgb(83, 83, 83);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.cont {
+    display: inline-block;
+}
+.mast-c {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    padding-top: 10vb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+h1, h2, p{
+    padding-bottom: 2vb;
+}
+h3 {
+    padding-bottom: 1vb;
+    padding-top: 1vb;
+}
+
+
+.logo {
+    width: 15vb;
+}
+
+.logo-header {
+    margin-bottom: 5vb
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 img {
+    flex: 1;
+    width: 1vb;
+    margin-left: 5%;
+}
+.texts {
+    flex: 1;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.subtext {
+    padding-bottom: 5%;
+}
+
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contt img {
+    width: 90vb;
+}
+.contt {
+    display: inline-block;
+    text-align: center;
+}
+.contt p {
+    margin-bottom: 1vb;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec5 {
+    margin: 10vb;
+    display: flex;
+    justify-content: center;
+    align-items: centr;
+}
+.subsection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subsection img {
+    width: 6vb;
+}
+.text-sub {
+    text-align: center;
+}
+.text-sub {
+    margin-top: 4vb;
+}
+.s3 {
+    margin-top: 2vb;
+}
+
+.sec6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7vb;
+}
+.sec6 img {
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    width: 18vb;
+}
+
+.sec7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 2vb;
+    border-style: none;
+    border-radius: 32px;
+    color: white;
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.buttons{
+    padding-top: 2vb;
+}
+
