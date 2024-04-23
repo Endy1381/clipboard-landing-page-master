@@ -40,7 +40,9 @@ header {
     text-align: center;
 }
 
-
+h1 {
+    font-weight: bold;
+}
 
 h1, h2, p{
     padding-bottom: 2vb;
@@ -50,6 +52,9 @@ h3 {
     padding-top: 1vb;
 }
 
+p {
+    color: rgb(114, 114, 114);
+}
 
 .logo {
     width: 15vb;
@@ -110,7 +115,6 @@ h3 {
 
 
 .sec5 {
-    margin: 10vb;
     display: flex;
     justify-content: center;
     align-items: centr;
@@ -169,3 +173,18 @@ button {
     padding-top: 2vb;
 }
 
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    display: flex;
+}
+.sub {
+    padding: 2vb;
+    display: flex;
+    flex-direction: column;
+}
