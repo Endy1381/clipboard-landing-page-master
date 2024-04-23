@@ -8,7 +8,7 @@ img {
     width: 100%;
 }
 
-section {
+section, .footer {
     padding-top: 12vb;
 }
 
@@ -182,8 +182,8 @@ button {
 
 .footer {
     background-color: hsl(0, 0%, 99%);
-    margin-top: 7vb;
     padding: 2vb;
+    margin-top: 10vb;
     display: flex;
     justify-content: space-around;
     align-items: center;
