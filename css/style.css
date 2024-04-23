@@ -9,7 +9,7 @@ img {
 }
 
 section {
-    padding-top: 9vb;
+    padding-top: 12vb;
 }
 
 
@@ -17,6 +17,7 @@ body {
     color: rgb(83, 83, 83);
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
 .cont {
     display: inline-block;
 }
@@ -111,13 +112,14 @@ p {
 .sec4 {
     display: flex;
     justify-content: center;
+    padding-bottom: 1vb;
 }
 
 
 .sec5 {
+    padding-top: 2vb;
     display: flex;
     justify-content: center;
-    align-items: centr;
 }
 .subsection {
     flex: 1;
@@ -143,6 +145,8 @@ p {
     justify-content: center;
     align-items: center;
     padding: 7vb;
+    margin-top: 12vb;
+    margin-bottom: 10vb;
 }
 .sec6 img {
     margin-left: 4.5%;
@@ -161,6 +165,7 @@ button {
     border-style: none;
     border-radius: 32px;
     color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 .ios {
     background-color: hsl(171, 66%, 44%);
@@ -176,15 +181,30 @@ button {
 
 
 .footer {
+    background-color: hsl(0, 0%, 99%);
+    margin-top: 7vb;
+    padding: 2vb;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .left {
+    display: flex;
+    align-items: center;
+}
+.right {
     display: flex;
 }
 .sub {
     padding: 2vb;
     display: flex;
     flex-direction: column;
+}
+.right img {
+    margin-right: 1vb;
+}
+
+.logo-footer {
+    width: 8vb;
+    margin-right: 20vb;
 }
