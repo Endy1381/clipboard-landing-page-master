@@ -9,13 +9,18 @@ img {
 }
 
 section, .footer {
-    padding-top: 12vb;
+    padding-top: 6%;
 }
 
 
 body {
     color: rgb(83, 83, 83);
     font-family: 'Bai Jamjuree', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .cont {
@@ -34,7 +39,7 @@ header {
 }
 
 .header {
-    padding-top: 10vb;
+    padding-top: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,23 +51,23 @@ h1 {
 }
 
 h1, h2, p{
-    padding-bottom: 2vb;
+    padding-bottom: 2%;
 }
 h3 {
-    padding-bottom: 1vb;
-    padding-top: 1vb;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 p {
-    color: rgb(114, 114, 114);
+    color: rgb(153, 153, 153);
 }
 
 .logo {
-    width: 15vb;
+    width: 15%;
 }
 
 .logo-header {
-    margin-bottom: 5vb
+    margin-bottom: 5%;
 }
 
 .sec1 {
@@ -79,7 +84,7 @@ p {
 }
 .sec2 img {
     flex: 1;
-    width: 1vb;
+    width: 1%;
     margin-left: 5%;
 }
 .texts {
@@ -99,25 +104,25 @@ p {
     align-items: center;
 }
 .contt img {
-    width: 90vb;
+    width: 90%;
 }
 .contt {
     display: inline-block;
     text-align: center;
 }
 .contt p {
-    margin-bottom: 1vb;
+    margin-bottom: 1%;
 }
 
 .sec4 {
     display: flex;
     justify-content: center;
-    padding-bottom: 1vb;
+    padding-bottom: 1%;
 }
 
 
 .sec5 {
-    padding-top: 2vb;
+    padding-top: 2%;
     display: flex;
     justify-content: center;
 }
@@ -128,30 +133,30 @@ p {
     align-items: center;
 }
 .subsection img {
-    width: 6vb;
+    width: 6%;
 }
 .text-sub {
     text-align: center;
 }
 .text-sub {
-    margin-top: 4vb;
+    margin-top: 4%;
 }
 .s3 {
-    margin-top: 2vb;
+    margin-top: 2%;
 }
 
 .sec6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7vb;
-    margin-top: 12vb;
-    margin-bottom: 10vb;
+    margin: 15%;
+    margin-top: 8%;
+    margin-bottom: 6%;
 }
 .sec6 img {
     margin-left: 4.5%;
     margin-right: 4.5%;
-    width: 18vb;
+    width: 18%;
 }
 
 .sec7 {
@@ -161,7 +166,11 @@ p {
 }
 
 button {
-    padding: 2vb;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     border-style: none;
     border-radius: 32px;
     color: white;
@@ -175,15 +184,19 @@ button {
 }
 
 .buttons{
-    padding-top: 2vb;
+    display: flex;
+    padding: 2%;
 }
 
-
+.coo {
+    display: flex;
+    justify-content: center;
+}
 
 .footer {
     background-color: hsl(0, 0%, 99%);
-    padding: 2vb;
-    margin-top: 10vb;
+    padding: 2%;
+    margin-top: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -196,15 +209,84 @@ button {
     display: flex;
 }
 .sub {
-    padding: 2vb;
+    padding: 2%;
     display: flex;
     flex-direction: column;
 }
 .right img {
-    margin-right: 1vb;
+    margin-right: 1%;
 }
 
 .logo-footer {
-    width: 8vb;
-    margin-right: 20vb;
+    width: 8%;
+    margin-right: 20%;
+}
+
+/** for phones **/
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+    .buttons {
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .buttons button {
+        display: block;
+        transform: scale(300%);
+        font-size: 3%;
+        margin-bottom: 100%;
+    }
+    .sec2 {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .sec2 img{
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+    .sec3 img {
+        width: 50%;
+    }
+    .sec5 {
+        flex-direction: column;
+        margin-top: 2%;
+        margin-bottom: 8%;
+    }
+    .sec6 {
+        flex-direction: column;
+        padding: 0;
+        margin: 2%;
+    }
+    .sec6 img {
+        width: 25%;
+        margin-bottom: 7%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer img{
+        width: 500%;
+    }
+    .right img {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .texts {
+        margin: 0;
+        text-align: center;
+    }
 }
