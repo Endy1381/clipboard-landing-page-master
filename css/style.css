@@ -193,8 +193,10 @@ button {
     justify-content: center;
 }
 
+
+
 .footer {
-    background-color: hsl(0, 0%, 99%);
+    background-color: hsl(0, 0%, 89%);
     padding: 2%;
     margin-top: 10%;
     display: flex;
@@ -214,21 +216,29 @@ button {
     flex-direction: column;
 }
 .right img {
-    margin-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+
 }
 
 .logo-footer {
     width: 8%;
     margin-right: 20%;
+
 }
 
 /** for phones **/
 
 @media only screen and (max-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .header, .footer {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .footer {
+        margin-bottom: 0;
+    }
+    header {
+        background-image: url(../images/bg-header-mobile.png)
     }
     .buttons {
         flex-direction: column;
@@ -282,11 +292,18 @@ button {
         width: 500%;
     }
     .right img {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .texts {
         margin: 0;
         text-align: center;
+    }
+    .logo-footer {
+        margin: 0;
+    }
+    .sub {
+        margin: 0;
+        padding: 0;
     }
 }
